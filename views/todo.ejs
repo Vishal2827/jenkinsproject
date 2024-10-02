@@ -5,8 +5,8 @@
         <style>
             body {
                 font-family: Arial, sans-serif;
-                background-color: #345675;
-                color: #333;
+                background-color: #945675;
+                color: #363;
                 margin: 0;
                 padding: 0;
             }
@@ -57,7 +57,7 @@
             }
 
             form {
-                background: #fff;
+                background: #658422;
                 padding: 20px;
                 margin-top: 20px;
             }
@@ -89,7 +89,7 @@
     </head>
 
     <body>
-        <h1>Vishal & Deepii , Write your Goals Below</h1>
+        <h1>Vishal, Write your Goals Below</h1>
         <ul>
             <% todolist.forEach(function(todo, index) { %>
             <li>
@@ -102,7 +102,7 @@
 
         <form action="/todo/add/" method="post">
             <p>
-                <label for="newtodo">What should I do?</label>
+                <label for="newtodo">What should I do For You?</label>
                 <input type="text" name="newtodo" id="newtodo" autofocus />
                 <input type="submit" value="Send To Your Favourite Person" />
             </p>
