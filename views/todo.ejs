@@ -77,13 +77,22 @@
                 border: 1px solid #ddd;
             }
 
-            input[type="submit"] {
-                background-color: #faf3dd;
-                color: white;
-                border: none;
-                padding: 10px 20px;
-                cursor: pointer;
-            }
+          input[type="submit"] {
+    background-color: #8874a3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Optional: Adds rounded corners */
+    transition: box-shadow 0.3s, transform 0.3s; /* Adds smooth transition */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow effect */
+}
+
+/* Optional: Add hover effect for better interactivity */
+input[type="submit"]:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Slightly larger shadow on hover */
+    transform: translateY(-2px); /* Slightly lift the button */
+}
 
             input[type="submit"]:hover {
                 background-color: #fbfbf2;
